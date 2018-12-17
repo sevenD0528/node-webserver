@@ -1,0 +1,28 @@
+{
+  "name": "node-webserver-cli",
+  "version": "0.1.1",
+  "description": "A static webserver based on NodeJS",
+  "main": "src/app.js",
+  "bin": {
+    "nodewebserver": "bin/nodewebserver"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonLi1990/node-webserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonLi1990/node-webserver/issues"
+  },
+  "homepage": "https://github.com/JasonLi1990/node-webserver#readme",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "handlebars": "^4.0.12",
+    "mime": "^2.4.0",
+    "yargs": "^12.0.5"
+  }
+}
