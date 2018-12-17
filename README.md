@@ -5,18 +5,18 @@ A static web server based on NodeJS
 ## Install
 
 ```
-npm i -g nodewebserver
+npm i -g node-webserver-cli
 ```
 
 ## Usage
 
 ```
-nodewebserver # take current folder as root folder
+node-webserver-cli # take current folder as root folder
 
-nodewebserver -p 3000 # set port as 3000
+node-webserver-cli -p 3000 # set port as 3000
 
-nodewebserver -h localhost # set host as localhost
+node-webserver-cli -h localhost # set host as localhost
 
-nodewebserver -d /user # set root folder as /user
+node-webserver-cli -d /user # set root folder as /user
 ```
 

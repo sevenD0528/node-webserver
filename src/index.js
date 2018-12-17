@@ -2,7 +2,7 @@ const yargs = require('yargs');
 const Server = require('./app');
 
 const argv = yargs
-.usage('nodewebserver [options]')
+.usage('node-webserver-cli [options]')
 .options('p', {
     alias: 'port',
     describe: '端口号',
