@@ -1,4 +1,4 @@
-# nodewebserver
+# node web server
 
 A static web server based on NodeJS
 
